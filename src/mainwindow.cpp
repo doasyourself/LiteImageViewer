@@ -7,6 +7,7 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
+    // 设置图片
     QImage img("C:/Users/Public/Pictures/Sample Pictures/Lighthouse.jpg");
     ui->widget->setImage(img);
 }
